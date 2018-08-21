@@ -3,6 +3,7 @@
 # list of backers and report on the backers who support them.
 class Project
   attr_accessor :backers
+  
   def initialize(title)
     @backers = []
   end
