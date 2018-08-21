@@ -3,7 +3,8 @@
 # backer's list and so that the backer can report on the projects they back.
 
 class Backer
-  attr_accessor :projects
+  attr_accessor :backed_projects
+
   def initialize(name)
     @name = name
   end
