@@ -2,7 +2,7 @@
 # Instances of the Project class should have an attr_accessor for backers so that projects can add backers to their
 # list of backers and report on the backers who support them.
 class Project
-
+  attr_accessor :backers
   def initialize(title)
     @backers = []
   end
