@@ -3,7 +3,11 @@
 # list of backers and report on the backers who support them.
 class Project
 
+  def initialize
+    @backers = []
+  end
 
+  
 
 
 end
