@@ -14,8 +14,11 @@ class Backer
     @name
   end
 
+  # accepts a Project as an argument and stores it in a backed_projects array
+  # also adds the backer to the project's backers array
   def back_project(project)
     @backed_projects << project
+
   end
 
 end
