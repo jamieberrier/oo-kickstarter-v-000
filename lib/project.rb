@@ -10,6 +10,7 @@ class Project
   end
 
   def title
+    @title
   end
 
 
