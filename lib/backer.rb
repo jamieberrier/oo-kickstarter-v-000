@@ -9,6 +9,7 @@ class Backer
   end
 
   def name
-    @nameend
+    @name
+  end
 
 end
